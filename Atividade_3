@@ -1,0 +1,23 @@
+programa {
+funcao inicio() {
+    
+inteiro dias
+inteiro horas
+inteiro minutos
+inteiro segundos
+inteiro segundos_soma
+
+escreva("* Informe a quantidade de Dias.. ")
+leia(dias)
+escreva("* Informe a quantidade de Horas.. ")
+leia(horas)
+escreva("* Informe a quantidade de Minutos.. ")
+leia(minutos)
+escreva("* Informe a quantidade de Segundos.. ")
+leia(segundos)
+
+segundos_soma = dias * horas * minutos * segundos
+escreva("A soma das informações em segundos é ", segundos_soma, "s")
+
+}
+}
