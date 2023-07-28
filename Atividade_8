@@ -1,0 +1,50 @@
+programa {
+funcao inicio() {
+    
+logico coriza
+logico tosse
+logico dor_g
+logico febre
+logico dificuldade_r
+inteiro sintomas = 0
+
+escreva(" * Você está com coriza?.. ")
+leia(coriza)
+se(coriza == verdadeiro) {
+sintomas++
+}
+
+escreva(" * Você está com tosse?.. ")
+leia(tosse)
+se(tosse == verdadeiro) {
+sintomas++
+}
+
+escreva(" * Você está com dor de garganta?.. ")
+leia(dor_g)
+se(dor_g == verdadeiro) {
+sintomas++
+}
+
+escreva(" * Você está com febre?.. ")
+leia(febre)
+se(febre == verdadeiro) {
+sintomas++
+}
+
+escreva(" * Você está com dificuldade para respirar?.. ")
+leia(dificuldade_r)
+se(dificuldade_r == verdadeiro) {
+sintomas = sintomas + 3
+}
+
+se(sintomas >= 4) {
+escreva(" * Você tem grandes chances de estar com COVID-19")
+}
+
+senao se(sintomas < 4) {
+escreva(" * Você provavelmete não está com COVID-19")
+}
+
+}
+}
