@@ -1,0 +1,22 @@
+programa {
+funcao inicio() {
+
+real preco
+real km
+real aluguel
+
+escreva("Quantos dias o carro foi alugado?.. ")
+leia(aluguel)
+escreva("\n")
+escreva("Quantos KM foram percorridos?.. ")
+leia(km)
+escreva("\n")
+
+aluguel = aluguel * 60.00
+km = km * 0.15
+preco = km + aluguel
+
+escreva("Preço a ser pago: R$", preco)
+
+}
+}
