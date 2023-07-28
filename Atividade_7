@@ -1,0 +1,17 @@
+programa {
+funcao inicio() {
+
+inteiro temperatura  
+escreva("* Informe a temperatura atual.. ")
+leia(temperatura)
+
+se(temperatura >= 0) {
+escreva("* A temperatura atual está positiva")
+}
+
+senao se(temperatura < 0) {
+escreva("* A temperatura atual está negativa")
+}
+
+}
+}
