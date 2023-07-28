@@ -1,0 +1,19 @@
+programa {
+
+  funcao inicio() {
+    
+  cadeia vogais == a, b, c, d, e
+  cadeia letra_digitada
+
+  escreva("Digite uma letra: \n")
+  leia(letra_digitada)
+  escreva(" ============================ \n")
+
+  se (letra_digitada == vogais) {
+  escreva("A letra digitada é uma vogal. \n") }
+  
+
+  senao escreva("A letra digitada é uma consoante. \n") 
+  
+  }
+}
