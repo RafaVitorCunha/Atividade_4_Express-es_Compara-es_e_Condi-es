@@ -1,0 +1,22 @@
+programa {
+funcao inicio() {
+    
+inteiro km
+inteiro km_excedido
+real multa
+
+escreva("* Qual a velocidade que seu veículo estava?.. ")
+leia(km)
+
+se(km > 80) {
+km_excedido = km - 80
+multa = km_excedido * 7.00
+escreva("* Você ultrapassou a velocidade permitida, multa a ser paga: R$", multa, ",00")
+}
+
+senao se (km <= 80) {
+escreva("* Você está dentro da velocidade permitida, nenhuma multa a se paga.")
+}
+
+}
+}
